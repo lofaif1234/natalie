@@ -2,21 +2,25 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>natalie</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="stylesheet" href="style.css">
-<script src="messages.js" defer></script><script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css?v=mobile4">
+<link rel="stylesheet" href="mobile.css?v=1">
+<script src="messages.js?v=mobile4" defer></script><script src="script.js?v=mobile4" defer></script>
 </head>
 <body>
 <button id="theme-switch" class="theme-switch" aria-pressed="false">Pusheen theme</button><main><img class="characters pusheen-friends" src="pusheen-friends.png" alt="Pusheen, Stormy and Pip with donuts, ice cream and pastel hearts" draggable="false"><img class="characters" src="characters.png" alt="Naomi Misora and Ryuk on the left, Light Yagami and Rem on the right" draggable="false">
-<button id="cover" class="cover" aria-label="Open Death Note"><span class="pusheen-cover"><span class="pusheen-title">Pusheen</span><img src="pusheen.png" alt="Pusheen holding a heart" draggable="false"></span><img class="cover-title" src="cover-title.svg" alt="Death Note" draggable="false"></button>
+<div class="cover-wrap"><button id="cover" class="cover" aria-label="Open Death Note"><span class="pusheen-cover"><span class="pusheen-title">Pusheen</span><img src="pusheen.png" alt="Pusheen holding a heart" draggable="false"></span><img class="cover-title" src="cover-title.svg" alt="Death Note" draggable="false"></button><button id="open-today" class="open-today">Apri il messaggio di oggi <span>↗</span></button></div>
 <section id="notebook" class="notebook" aria-label="Open Death Note" hidden>
 <div class="spread advent-spread"><div class="dedication"><span id="page-label"></span><h1 id="page-title"></h1><span id="page-count"></span></div><article class="message-page" tabindex="0" aria-live="polite"><span id="message-symbol" aria-hidden="true">♡</span><p id="message"></p><span id="unlock-note"></span></article></div>
-<nav aria-label="Navigazione del calendario"><button id="previous" aria-label="Pagina precedente">←</button><button id="close">Chiudi</button><button id="next" aria-label="Pagina successiva">→</button></nav>
+<nav aria-label="Navigazione del calendario"><button id="show-calendar" aria-expanded="false" aria-controls="calendar-panel">Calendario</button><button id="previous" aria-label="Pagina precedente">←</button><button id="close">Chiudi</button><button id="next" aria-label="Pagina successiva">→</button></nav>
 
+<div class="reading-progress"><span id="reading-progress-fill"></span></div>
 </section>
-</main>
+<aside id="calendar-panel" hidden aria-label="Scegli un giorno"><div class="calendar-heading"><span>I tuoi giorni</span><button id="hide-calendar" aria-label="Chiudi calendario">×</button></div><div class="intro-links"></div><div id="day-grid"></div><p id="calendar-hint"></p></aside>
+<button id="hug-button" class="hug-button">♡ ti serve un abbraccio?</button><button class="character-surprise ryuk-surprise" aria-label="Scopri la sorpresa di Ryuk"></button><button class="character-surprise pusheen-surprise" aria-label="Scopri la sorpresa di Pusheen"></button>
+</main><dialog id="surprise-dialog"><button id="close-surprise" aria-label="Chiudi">×</button><span class="surprise-heart" aria-hidden="true">♡</span><p id="surprise-text"></p><button id="another-hug">ancora uno ♡</button></dialog>
 </body>
 </html>
 

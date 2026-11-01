@@ -43,102 +43,102 @@ const dailyMessages = [
   ],
   [
     "puoi essere te",
-    "con me non devi avere sempre la risposta giusta o sembrare felice per forza. mi fa piacere parlare con te anche se non hai niente di particolare da raccontare. non devi fare chissa cosa per essere una persona che conta per me."
+    "con me non devi pensare sempre a cosa dire o a come sembrare. mi fa piacere parlare con te pure quando non stiamo dicendo niente di intelligente. anzi certe volte sono proprio quelle le conversazioni che mi fanno sorridere di piu."
   ],
   [
-    "un pensiero mio",
-    "se oggi hai pensato qualcosa di brutto su di te allora aggiungici pure quello che penso io. che sei bella che sei unica e che non meriti di trattarti come se in te ci fosse sempre qualcosa che non va."
+    "mi distrai",
+    "comunque hai sta cosa che riesci a distrarmi pure da lontano. magari sto facendo altro poi vedo un tuo messaggio e niente mi viene da sorridere come un scemo. e si la colpa e tua."
   ],
   [
     "non e poco",
-    "magari per te e una cosa normale che ci siamo conosciuti e abbiamo iniziato a parlare ma io non la considero una cosa da niente. tra tutte le persone ci siamo trovati noi e a me sta cosa fa piacere veramente."
+    "tra tutte le persone che potevo conoscere ho conosciuto te e devo dire che mi e andata parecchio bene. cioe sei bella abbiamo cose in comune e mi fai pure stare bene. un po troppo carina come cosa."
   ],
   [
-    "non devi cambiare",
-    "non ti sto facendo tutti sti complimenti pensando che un giorno diventerai diversa. mi piaci come persona gia adesso. non devi prima cambiare tutte quelle cose che magari non ti piacciono di te per meritarti quello che ti scrivo."
+    "cosi come sei",
+    "mi piace il tuo modo di essere non solamente come appari. mi piace che sei te quella con qui parlo e che non devo cercare una versione diversa di te per trovare cose belle. ce ne sono gia parecchie."
   ],
   [
-    "se oggi pesa",
-    "se oggi e una giornata di merda non ti faccio il solito discorso che devi sorridere per forza. ti dico solamente che anche oggi sei una persona speciale e sono contento di averti conosciuta. pure se oggi a te sembra tutto il contrario."
+    "giornata di merda",
+    "se oggi e andata male vieni qui che ti mando un abbraccio. lo so e attraverso un sito e fa un po ridere ma il pensiero e quello. vorrei farti stare un po meglio anche senza dover trovare per forza la frase perfetta."
   ],
   [
     "si lo penso",
-    "magari stai leggendo e pensi vabbe lo dice solamente per farmi stare bene. no cioe ovvio che voglio farti stare bene ma non mi devo inventare cose belle su di te per farlo. quelle ci sono gia."
+    "quando ti dico che sei bellissima non sto facendo il gentile tanto per. certe volte penso proprio ma come fa a non vedersi cosi. se potessi farti vedere per un attimo come ti vedo io secondo me capiresti."
   ],
   [
-    "il nostro rapporto",
-    "una delle cose che mi piacciono e che il nostro rapporto si e costruito da quando ci siamo conosciuti. prima non sapevo nemmeno chi fossi e adesso sto qui a scriverti 32 pagine cioe direi che qualcosa vuol dire."
+    "un messaggio tuo",
+    "mi piace quando sul telefono compare un messaggio tuo. non deve nemmeno esserci scritto qualcosa di particolare. e proprio il fatto che sei te che mi hai scritto che mi fa piacere."
   ],
   [
-    "senza dimostrare",
-    "non devi dimostrarmi ogni giorno che sei speciale. se sei stanca o non hai voglia di parlare non e che improvvisamente penso meno di te. sei sempre te e non devi fare qualcosa di particolare per farmi piacere che ci sei."
+    "niente da dimostrare",
+    "pure se oggi sei stanca e non hai voglia di parlare non devi farti problemi con me. non mi interessi solamente quando sei di buon umore. mi fa piacere che ci sei anche nei giorni in qui non ti va di fare niente."
   ],
   [
-    "una cosa semplice",
-    "oggi niente discorso enorme volevo solamente ricordarti che sei bellissima. lo so l'ho gia detto ma non e che dopo una volta scade. e valido pure oggi e pure domani."
+    "un abbraccio tuo",
+    "oggi ci starebbe bene un abbraccio tuo ma uno di quelli che non finisce subito. senza fare chissa cosa stare li un po e basta. per ora ti tocca immaginarlo ma sappi che il pensiero c’e."
   ],
   [
-    "oltre lo schermo",
-    "non ostante non ci conosciamo dal vivo io non considero finto il bene che ti voglio. dietro lo schermo ci sei te davvero e quello che penso quando ti scrivo non e meno vero solo perchè non siamo nello stesso posto."
+    "da vicino",
+    "ogni tanto penso a come sarebbe averti davanti invece che dall’altra parte dello schermo. probabilmente non saprei nemmeno bene cosa dire ma un sorriso da scemo secondo me mi partirebbe subito."
   ],
   [
-    "non sei un difetto",
-    "mi dispiace pensare che magari ti fissi su una cosa di te e finisci per vedere solamente quella. io quando penso a te non penso a una lista di difetti. penso a una persona che sono contento di avere conosciuto."
+    "sei bella davvero",
+    "non devi essere sistemata in un certo modo per essere bella. non e che vali solo quando trovi la foto giusta o ti piaci abbastanza da fartela. sei te quella bella non solamente una foto venuta bene."
   ],
   [
-    "i tuoi gusti",
-    "mi piace che abbiamo gusti in comune ma mi piace pure che hai i tuoi. non devi essere uguale a me in tutto. e bello conoscerti anche nelle cose che ti rendono diversa perchè fanno parte di te."
+    "le cose nostre",
+    "mi piacciono le cose che abbiamo in comune perchè ormai non sono solamente cose che mi piacciono e basta. mi fanno pensare pure a te. e niente mi piace che adesso ci sia anche un po di noi dentro."
   ],
   [
-    "un sorriso magari",
-    "spero che sta pagina ti faccia fare anche solamente un mezzo sorriso. non perchè devi essere felice per forza ma perchè mi piace l'idea di averti lasciato una cosa bella nella giornata anche da qui."
+    "un bacio piccolo",
+    "oggi insieme al complimento ti mando pure un bacio. piccolo piccolo cosi non puoi dire che sto esagerando. comunque sei bellissima e si questo era il complimento non me lo sono dimenticato."
   ],
   [
-    "te lo meriti",
-    "se ti dico che sei bella non devi per forza pensare che sto esagerando. magari tu non ti vedi cosi ma io si e volevo dirtelo. spero che oggi riesci a pensare anche solo per un momento che magari tutte ste cose belle su di te sono vere."
+    "se potessi",
+    "se potessi metterti qui vicino per un po lo farei. anche senza programmi particolari mi basterebbe stare con te. mi piace l’idea di poterti guardare e parlare senza dover scrivere tutto su una tastiera."
   ],
   [
-    "nessuna classifica",
-    "per me non sei in una gara con le altre persone. non sto facendo una classifica di chi e piu bella o piu interessante. sto parlando di te e delle cose che mi fanno pensare che sei unica."
+    "non come le altre",
+    "non e che penso a te e mi metto a confrontarti con le altre. penso a te e basta. al fatto che mi fai sorridere che mi piace parlarti e che certe volte sei cosi carina che non so nemmeno cosa rispondere."
   ],
   [
-    "il tempo per te",
-    "ho voluto dedicare del tempo a questa cosa perchè mi andava di fare qualcosa apposta per te. non perchè dovevo e nemmeno per avere qualcosa in cambio. semplicemente ci tenevo e mi piaceva l'idea di farti felice."
+    "ci tenevo",
+    "ogni pagina di sto coso esiste perchè mi andava di fare qualcosa per te. mi piace pensare che magari apri il libro e per un momento sorridi per una cosa che ho scritto io. gia quello per me e tanto."
   ],
   [
-    "non devi dirmi tutto",
-    "magari hai pensieri che non ti va di raccontarmi e va bene non devi sentirti obbligata. volevo solamente che anche in quei momenti avessi qui qualcosa di bello da leggere senza dover spiegare niente a nessuno."
+    "anche in silenzio",
+    "se hai qualcosa che ti pesa puoi parlarmene ma non devi sentirti obbligata. possiamo pure parlare di cazzate se ti aiuta a distrarti. non devi spiegarmi tutto per meritarti un po di dolcezza."
   ],
   [
-    "sempre te",
-    "mi piace pensare che dietro a tutte le tue insicurezze ci sei comunque te. non spariscono le cose belle che hai solamente perchè in quel momento non riesci a vederle. per me rimangono li."
+    "un po di coccole",
+    "oggi secondo me ti meriti un po di coccole e zero pensieri brutti su di te. quindi questo e il mio tentativo da lontano. ti mando un abbraccio un bacio e ti ricordo che sei bellissima. tutto insieme cosi facciamo prima."
   ],
   [
-    "non a caso",
-    "se torno a dirti che sei speciale non e perchè non ho altre parole. e perchè vorrei che fosse una di quelle cose che ti rimangono in testa invece di tutte le cazzate che magari ti fanno pensare il contrario."
+    "mi rimani in testa",
+    "mi capita di pensarti anche quando non stiamo parlando. magari vedo qualcosa che potrebbe piacerti e penso subito a mandartela. mi piace sta cosa che ormai sei dentro anche a quei momenti piccoli della giornata."
   ],
   [
-    "pure nei giorni no",
-    "non devi essere sempre interessante sempre simpatica sempre al massimo. non sei una persona a cui voglio bene solamente quando e tutto facile. puoi avere i tuoi giorni no senza pensare che per questo vali meno."
+    "senza fare niente",
+    "non devi fare chissa cosa per farmi sorridere. certe volte basta proprio il tuo modo di rispondere. magari per te e normale e io invece sto li col telefono in mano che sorrido. un po scemo si ma vabbe."
   ],
   [
-    "sono contento",
-    "oggi volevo dirti una cosa che magari sembra banale ma sono contento che ci siamo conosciuti. veramente. non so se te lo dico abbastanza ma questo rapporto per me non e una cosa che c'e tanto per esserci."
+    "ti vorrei qui",
+    "oggi ti vorrei qui anche solo per un po. per parlare per ridere per darti quell’abbraccio che continuo a mandarti attraverso uno schermo. mi piace pensare che prima o poi non dovro solamente scriverlo."
   ],
   [
-    "rileggi questa",
-    "se oggi ti senti brutta rileggi questa sei bellissima. non e una sfida a chi ha ragione e non pretendo di cambiarti idea con una frase ma volevo che qui ci fosse anche il mio pensiero."
+    "bella pure oggi",
+    "se oggi non ti piaci abbastanza ci penso io a ricordarti che sei bellissima. non devi rispondermi per forza che e vero. volevo solamente che tra tutti i pensieri della giornata ci fosse pure qualcuno che ti guarda con dolcezza."
   ],
   [
-    "quasi alla fine",
-    "mancano poche pagine e spero che almeno qualcuna ti abbia fatto stare un po meglio. comunque non pensare che quando finiscono i giorni finiscono pure i complimenti perchè sarebbe un po stupido dopo tutto sto discorso."
+    "ancora un po",
+    "siamo quasi alla fine e volevo dirti che fare questa cosa per te mi ha fatto piacere veramente. non mi sono messo qui a contare le pagine per finirle. mi piaceva trovare ogni volta un altro modo per farti capire quanto ci tengo."
   ],
   [
-    "non scade domani",
-    "domani e l'ultima pagina ma quello che ti ho scritto non ha una scadenza. se tra un po ti torna qualche insicurezza puoi rileggerti tutto e sappi che non l'ho pensato solamente il giorno in qui ho scritto."
+    "domani",
+    "domani c’e l’ultima pagina e si ci tengo un po piu delle altre. intanto oggi ti dico grazie per il rapporto che abbiamo e per tutti i sorrisi che mi fai fare pure senza accorgertene. ps sei bellissima non potevo saltarlo proprio oggi."
   ],
   [
-    "ultima pagina",
-    "siamo al 26 novembre e questa e l'ultima pagina. alla fine quello che volevo dirti era questo sono contento di averti conosciuta il nostro rapporto per me conta e sei bellissima e speciale veramente. spero che sto coso ti abbia fatto capire almeno un po come ti vedo io. ps sei bellissima e perfetta si pure oggi."
+    "una cosa che volevo dirti",
+    "natalie siamo arrivati al 26 e pensavo a come scrivere questa pagina ma alla fine preferisco dirtelo come mi viene.\n\nquando ho iniziato sto calendario volevo farti capire quanto sei bella e speciale. pero andando avanti mi sono reso conto che non volevo solamente farti dei complimenti. volevo farti capire quanto sei importante per me.\n\nmi piace quando mi scrivi mi piace pensarti durante la giornata e mi piace che delle cose normalissime adesso mi fanno venire in mente te. vorrei averti vicino abbracciarti e dirti tutte ste cose guardandoti invece che lasciandole su una pagina.\n\nnon ostante non ci conosciamo ancora dal vivo quello che provo non lo sto scrivendo tanto per fare una bella ultima pagina. ci ho pensato e voglio dirtelo veramente.\n\nti amo.\n\nsi proprio questo. non devi trovare subito qualcosa da rispondere e non ti sto chiedendo di dirmelo anche te solo perchè l’ho scritto io. volevo che sapessi come mi sento senza nasconderlo dietro un altro complimento.\n\nsono contento di averti conosciuta e di quello che si e creato tra noi. questo libro finisce qui ma io ho ancora voglia di conoscerti di sentirti e di fare altre cose belle per te.\n\nps sei bellissima e stavolta insieme al bacio piccolo piccolo ti mando pure un abbraccio di quelli che durano tanto."
   ]
 ];
