@@ -67,11 +67,11 @@ const dailyMessages = [
   ],
   [
     "un messaggio tuo",
-    "mi piace quando sul telefono compare un messaggio tuo. non deve nemmeno esserci scritto qualcosa di particolare. e proprio il fatto che sei te che mi hai scritto che mi fa piacere."
+    "mi piace quando sul telefono compare un messaggio tuo. non deve nemmeno esserci scritto qualcosa di particolare. e proprio il fatto che sei te che mi hai scritto che mi fa piacere.t"
   ],
   [
     "niente da dimostrare",
-    "pure se oggi sei stanca e non hai voglia di parlare non devi farti problemi con me. non mi interessi solamente quando sei di buon umore. mi fa piacere che ci sei anche nei giorni in qui non ti va di fare niente."
+    "pure se oggi sei stanca e non hai voglia di parlare non devi farti problemi con me. non mi interessi solamente quando sei di buon umore. mi fa piacere che ci sei anche nei giorni in qui non ti va di fare niente. e per questo io ti amo tantissimo ma ho anche una domanda, io e te cosa siamo?"
   ],
   [
     "un abbraccio tuo",
