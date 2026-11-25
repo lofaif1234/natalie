@@ -28,7 +28,7 @@ function render() {
   document.querySelector('#page-label').hidden = page < 3;
   document.querySelector('#page-title').textContent = locked ? 'Una piccola sorpresa' : content.title;
   document.querySelector('#page-count').textContent = `${page + 1} / ${introductions.length + dailyMessages.length}`;
-  document.querySelector('#message').textContent = locked ? 'Questa pagina ti aspetta. Torna il giorno giusto per scoprire il tuo messaggio.' : content.message.replace('{tema}', theme === 'pusheen' ? 'pusheen' : 'death note');
+  renderLetter(locked ? 'Questa pagina ti aspetta. Torna il giorno giusto per scoprire il tuo messaggio.' : content.message.replace('{tema}', theme === 'pusheen' ? 'pusheen' : 'death note'), !locked && day === 32);
   document.querySelector('#message-symbol').textContent = locked ? '✧' : '♡';
   document.querySelector('#unlock-note').textContent = locked ? `Si apre il ${messageDate(day)}` : '';
   document.querySelector('#reading-progress-fill').style.width = `${(page + 1) / 35 * 100}%`;
@@ -58,7 +58,8 @@ themeSwitch.addEventListener('click', () => {
   try { localStorage.setItem('notebook-theme', theme); } catch {}
   applyTheme();
 });
-setInterval(() => { if (!notebook.hidden) render(); }, 30000);
+let lastAvailableDay = unlockedDay();
+setInterval(() => { const available = unlockedDay(); if (available !== lastAvailableDay) { lastAvailableDay = available; if (!notebook.hidden) render(); } }, 30000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden && !notebook.hidden) render(); });
 applyTheme();
 
@@ -250,3 +251,49 @@ document.querySelector('.ryuk-surprise').addEventListener('click', event => open
 document.querySelector('.pusheen-surprise').addEventListener('click', event => openSurprise(event.currentTarget, 'hai trovato una coccola nascosta. pusheen ti lascia un dolcetto e io ti mando un bacio. il dolcetto pero non mangiarlo tutto che un pezzettino lo volevo pure io.'));
 document.querySelector('#close-surprise').addEventListener('click', () => surpriseDialog.close());
 surpriseDialog.addEventListener('close', () => surpriseTrigger?.focus());
+const requestedDay = Number(new URLSearchParams(location.search).get('giorno'));
+if (preview && Number.isInteger(requestedDay) && requestedDay >= 1 && requestedDay <= dailyMessages.length) {
+  page = introductions.length + requestedDay - 1;
+  openBook();
+}
+
+function appendHeartText(parent, text) {
+  const pieces = text.split(/(🩷|♡)/u);
+  for (const piece of pieces) {
+    if (piece === '🩷' || piece === '♡') {
+      const heart = document.createElement('span');
+      heart.className = 'letter-heart';
+      heart.setAttribute('role', 'img');
+      heart.setAttribute('aria-label', 'cuore rosa');
+      parent.append(heart);
+    } else parent.append(document.createTextNode(piece));
+  }
+}
+function renderLetter(text, withMemories) {
+  const container = document.querySelector('#message');
+  container.replaceChildren();
+  container.classList.toggle('memory-letter', withMemories);
+  if (!withMemories) { appendHeartText(container, text); return; }
+  const paragraphs = text.split(/\n\s*\n/);
+  const placements = new Map([[2,1],[4,2],[6,3],[9,4],[14,5],[17,6]]);
+  const captions = ['noi anche da lontano', 'le nostre partite', 'insieme pure qui', 'le cose nostre', 'la tua mano nella mia', 'altri ricordi con te'];
+  paragraphs.forEach((paragraph, index) => {
+    const p = document.createElement('p');
+    appendHeartText(p, paragraph.trim());
+    container.append(p);
+    if (placements.has(index)) {
+      const number = placements.get(index);
+      const figure = document.createElement('figure');
+      figure.className = 'memory-photo';
+      const image = document.createElement('img');
+      image.src = `memories/ricordo-${number}.png`;
+      image.alt = captions[number - 1];
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      const caption = document.createElement('figcaption');
+      caption.textContent = captions[number - 1];
+      figure.append(image, caption);
+      container.append(figure);
+    }
+  });
+}
